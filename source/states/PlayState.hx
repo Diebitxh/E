@@ -33,9 +33,9 @@ import substates.GameOverSubstate;
 #if !flash
 import openfl.filters.ShaderFilter;
 #end
-
+import openfl.filters.BitmapFilter;
 import shaders.ErrorHandledShader;
-
+import openfl.display.Shader;
 import objects.VideoSprite;
 import objects.Note.EventNote;
 import objects.*;
